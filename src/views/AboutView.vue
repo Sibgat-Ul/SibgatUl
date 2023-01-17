@@ -62,8 +62,4 @@ form > input, textarea {
 input[type="submit"] {
   padding: 0px !important
 }
-
-h1 {
-
-}
 </style>
