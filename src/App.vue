@@ -5,9 +5,9 @@ import Nav from "@/components/Nav.vue";
 
 <template>
     <div class="main h-screen p-.5em pb-0 md:p-2em">
-        <header>
-            <Nav class="b-rd mb-.5em md:mb-1em" />
-        </header>
+         
+        <Nav class="b-rd mb-.5em md:mb-1em" />
+        
 
         <RouterView></RouterView>
 

@@ -1,8 +1,9 @@
 <template>
   <div
       class="
-        hero 
-        h-[calc(100%-6em)] 
+        hero
+        h-78vh
+        md:h-[calc(100%-6em)] 
         grid
         content-center
         items-center
@@ -12,11 +13,11 @@
       "
       >
       <section id="details" class="dets px-1em md:p-1em">
-        <h1 class="text-2xl md:text-5xl fw-900">
+        <h1 class="text-xl md:text-5xl fw-900">
           More About Me
         </h1>
      
-        <p class="text-lg my-.5em md:text-xl md:my-1em">
+        <p class="text-md my-.5em md:text-xl md:my-1em">
           Hello! I am Sibgat Ul Islam, from Bangladesh, currently studying Bsc in Computer Science 
           and Electronics at North South University. I am a Linux enthausiast, love to build and 
           break, explore new ideas, whatever I do, I give 100% (only when I am programming ;)). 

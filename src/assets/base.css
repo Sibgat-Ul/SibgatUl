@@ -28,6 +28,7 @@
   margin: 0;
   position: relative;
   font-weight: normal;
+  transition: width .125s, height .125s;
 }
 
 body {
@@ -53,6 +54,6 @@ body {
   --color-font-darl: var(--n-font-dark);
 }
 
-html.dark > body >  #app > .main > header > nav a {
+.dark nav > a, .links > a {
   color: var(--color-font-light) !important;
 }
