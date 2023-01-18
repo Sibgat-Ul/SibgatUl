@@ -4,7 +4,6 @@
         hero 
         h-[calc(100%-6em)] 
         grid
-        md:gap-1em
         content-center
         items-center
         grid-cols-1
@@ -13,57 +12,43 @@
       "
       >
       <section id="details" class="dets px-1em md:p-1em">
-        <h1 class="text-xl md:text-4xl">
-          About Me
+        <h1 class="text-2xl md:text-5xl fw-900">
+          More About Me
         </h1>
      
-        <p class="text-sm md:text-lg md:my-1em">
+        <p class="text-lg my-.5em md:text-xl md:my-1em">
           Hello! I am Sibgat Ul Islam, from Bangladesh, currently studying Bsc in Computer Science 
           and Electronics at North South University. I am a Linux enthausiast, love to build and 
           break, explore new ideas, whatever I do, I give 100% (only when I am programming ;)). 
         </p>
-    
-        <p class="text-sm md:text-lg md:my-1em">
-          <p>I have learnt, </p>
-          <ul>
-            <li> Html, CSS, Javascript </li>
-            <li> Java, Python, C, C++, Rust </li>
-            <li> Aurdino </li>
-            <li> Vue, Pinia, Express, Quasar, Ionic, Node.js </li>
-            <li> Tauri(Rust) </li>
-            <li> Solidity, Ethers.Js </li>
-            <li> PostgreSQL </li>
-          </ul>
-
-          <p class="md:my-1em"> Current Stack, 
-            <li>
-              Vue, Express, PostgreSQL, Node.Js, Tauri, Solidity
-            </li>
-          </p>
-        </p>
       </section>
 
-      <section id="contact" class="p-1em">
-        <form action="" class="flex flex-col gap-1em b-rd">
-          <input type="text" name="from" id="from" placeholder="from" class="h-3em b-rd">
-          <textarea type="text" mame="textBox" id="textBox" class="h-10em b-rd" placeholder="Write to me..."></textarea>
+      <section id="contact" class="px-1em md:p-1em text-md md:text-xl md:my-1em">
+    
+        <p class="text-xl my-.5em md:text-3xl">
+          I have <span class="fw-900">learnt,</span> 
+        </p>
         
-          <input type="submit" class="w-15em h-2.6em b-rd m-a" value="Send">
-        </form>
+        <ul>
+          <li> Html, CSS, Javascript </li>
+          <li> Java, Python, C, C++, Rust </li>
+          <li> Aurdino </li>
+          <li> Vue, Pinia, Express, Quasar, Ionic, Node.js </li>
+          <li> Tauri(Rust) </li>
+          <li> Solidity, Ethers.Js </li>
+          <li> PostgreSQL </li>
+        </ul>
+
+        <p class="text-xl my-.5em md:text-3xl">
+          I am <span class="fw-900">good</span> at, 
+        </p>
+
+        <ul>
+          <li class="">
+            Vue, Express, PostgreSQL, Node.Js, Tauri, Solidity
+          </li>
+        </ul>
+       
       </section>
     </container>
 </template>
-
-<style scoped>
-form > input, textarea {
-  border: none;
-  background-color: var(--color-background-dark);
-  outline: none;
-  color: var(--color-font-light);
-  padding: .9em;
-}
-
-input[type="submit"] {
-  padding: 0px !important
-}
-</style>
