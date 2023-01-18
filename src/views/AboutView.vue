@@ -1,5 +1,5 @@
 <template>
-  <container
+  <div
       class="
         hero 
         h-[calc(100%-6em)] 
@@ -50,5 +50,5 @@
         </ul>
        
       </section>
-    </container>
+    </div>
 </template>
