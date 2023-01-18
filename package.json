@@ -11,6 +11,7 @@
     "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' :4173 'cypress open --e2e'"
   },
   "dependencies": {
+    "@vueuse/core": "^9.11.0",
     "unocss": "^0.48.4",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"

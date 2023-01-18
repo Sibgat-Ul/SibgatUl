@@ -12,7 +12,7 @@
         b-rd
       "
       >
-      <section class="dets px-1em md:p-1em">
+      <section id="details" class="dets px-1em md:p-1em">
         <h1 class="text-xl md:text-4xl">
           About Me
         </h1>
@@ -35,11 +35,15 @@
             <li> PostgreSQL </li>
           </ul>
 
-          <p class="md:my-1em"> Current Stack, <li>Vue, Express, PostgreSQL, Node.Js, Tauri, Solidity</li></p>
+          <p class="md:my-1em"> Current Stack, 
+            <li>
+              Vue, Express, PostgreSQL, Node.Js, Tauri, Solidity
+            </li>
+          </p>
         </p>
       </section>
 
-      <section class="p-1em">
+      <section id="contact" class="p-1em">
         <form action="" class="flex flex-col gap-1em b-rd">
           <input type="text" name="from" id="from" placeholder="from" class="h-3em b-rd">
           <textarea type="text" mame="textBox" id="textBox" class="h-10em b-rd" placeholder="Write to me..."></textarea>
@@ -53,9 +57,9 @@
 <style scoped>
 form > input, textarea {
   border: none;
-  background-color: var(--title-bg);
+  background-color: var(--color-background-dark);
   outline: none;
-  color: var(--title-font);
+  color: var(--color-font-light);
   padding: .9em;
 }
 

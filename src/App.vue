@@ -5,7 +5,7 @@ import Nav from '@/components/Nav.vue';
 </script>
 
 <template>
-  <div class="main h-screen p-.5em md:p-2em">
+  <div class="main h-screen p-.5em md:p-2em overflow-hidden">
     <header>
       <Nav class="b-rd mb-.5em md:mb-1em"/>
     </header>
@@ -14,5 +14,8 @@ import Nav from '@/components/Nav.vue';
   </div>
 </template>
 
-<style scoped>
+<style>
+html.dark {
+  color-scheme: dark;
+}
 </style>
