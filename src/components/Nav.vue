@@ -76,7 +76,7 @@
             "
             >
             <router-link @click="toggleFunc()" to="/">
-                Projects
+                Home
             </router-link>
             
             <router-link @click="toggleFunc()" to="/about">
