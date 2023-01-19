@@ -114,6 +114,8 @@ a {
 .mob-nav {
     height: 100vh;
     width: 100%;
+    z-index: 98;
+    background-color: var(--color-background);
 }
 
 .links > a {

@@ -1,18 +1,15 @@
 <template>
-  <div
+  <main
       class="
-        hero
-        h-78vh
-        md:h-[calc(100%-6em)] 
-        grid
-        content-center
-        items-center
-        grid-cols-1
-        md:grid-cols-2
-        b-rd
-      "
+          grid
+          content-center
+          items-center
+          grid-cols-1
+          md:grid-cols-2
+          md:gap-1em
+        "
       >
-      <section id="details" class="dets px-1em md:p-1em">
+      <section id="details" class="dets animate-fade-in-left animate-duration-.55s px-1em md:p-1em">
         <h1 class="text-xl md:text-5xl fw-900">
           More About Me
         </h1>
@@ -24,7 +21,7 @@
         </p>
       </section>
 
-      <section id="contact" class="px-1em md:p-1em text-md md:text-xl md:my-1em">
+      <section id="contact" class="animate-fade-in-right animate-duration-.55s px-1em md:p-1em text-md md:text-xl md:my-1em">
     
         <p class="text-xl my-.5em md:text-3xl">
           I have <span class="fw-900">learnt,</span> 
@@ -51,5 +48,5 @@
         </ul>
        
       </section>
-    </div>
+    </main>
 </template>
