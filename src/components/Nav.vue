@@ -122,7 +122,7 @@ a {
 }
 
 .links > a {
-    min-width: 8em;
+    min-width: 6em;
     width: 7em;
     max-width: 8em;
     margin: 0em .5em;
