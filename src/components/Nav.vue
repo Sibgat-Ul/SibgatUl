@@ -82,11 +82,14 @@
             <router-link @click="toggleFunc()" to="/about">
                 About Me
             </router-link>
+
+            <Footer></Footer>
         </div>
     </header>
 </template>
 
 <script setup>
+import Footer from "@/components/Footer.vue";
 import {useToggle, useDark} from '@vueuse/core';
 import {ref} from 'vue';
 
@@ -112,10 +115,10 @@ a {
 }
 
 .mob-nav {
-    height: 100vh;
+    height: calc(100vh - 2em);
     width: 100%;
     z-index: 98;
-    background-color: var(--color-background);
+    background: var(--color-background);
 }
 
 .links > a {
@@ -136,12 +139,12 @@ nav a.router-link-exact-active {
 }
 
 .logo, .links > a  {
-    background-color: var(--color-background-dark) !important;
+    background: var(--color-background-dark) !important;
     padding: .2em 0;
     text-align: center;
     padding: .2em 0;
     border-radius: .25rem;
-    background-color: var(--color-background-dark);
+    background: var(--color-background-dark);
     box-shadow: .25rem .25rem var(--color-shadow);
     
 }

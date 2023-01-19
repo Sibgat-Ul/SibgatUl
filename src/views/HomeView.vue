@@ -20,13 +20,13 @@
             fw-900 
             sm:text-5xl 
             my-.4em
-            animate-fade-in-left animate-duration-.55s
+            md:animate-fade-in-left md:animate-duration-.55s
             md:my-1em
         ">
             Hello, I am Sibgat Ul Islam
         </h1>
 
-        <h2 class="text-xl md:text-3xl animate-fade-in-right animate-duration-.55s">
+        <h2 class="text-xl md:text-3xl md:animate-fade-in-right md:animate-duration-.55s">
             Welcome to my portfolio! I am a web and app developer with
             experience in creating dynamic, responsive websites and mobile
             applications. My expertise lies in utilizing cutting-edge

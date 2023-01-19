@@ -8,7 +8,7 @@ import Footer from "@/components/Footer.vue";
     
     <RouterView></RouterView>
     
-    <Footer></Footer>
+    <Footer v-once class="display-none md:display-block md:animate-back-in-up"></Footer>
 </template>
 
 <style>

@@ -9,7 +9,7 @@
           md:gap-1em
         "
       >
-      <section id="details" class="dets animate-fade-in-left animate-duration-.55s px-1em md:p-1em">
+      <section id="details" class="dets md:animate-fade-in-left md:animate-duration-.2s px-1em md:p-1em">
         <h1 class="text-xl md:text-5xl fw-900">
           More About Me
         </h1>
@@ -21,7 +21,7 @@
         </p>
       </section>
 
-      <section id="contact" class="animate-fade-in-right animate-duration-.55s px-1em md:p-1em text-md md:text-xl md:my-1em">
+      <section id="contact" class="md:animate-fade-in-right md:animate-duration-.2s px-1em md:p-1em text-md md:text-xl md:my-1em">
     
         <p class="text-xl my-.5em md:text-3xl">
           I have <span class="fw-900">learnt,</span> 
