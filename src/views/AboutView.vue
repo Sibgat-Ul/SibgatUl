@@ -16,7 +16,7 @@
      
         <p class="text-md my-.5em md:text-xl md:my-1em">
           Hello! I am Sibgat Ul Islam, from Bangladesh, currently studying Bsc in Computer Science 
-          and Electronics at North South University. I am a Linux enthausiast, love to build and 
+          and Engineering at North South University. I am a Linux enthausiast, love to build and 
           break, explore new ideas, whatever I do, I give 100% (only when I am programming ;)). 
         </p>
       </section>
